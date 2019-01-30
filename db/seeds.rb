@@ -13,5 +13,5 @@ Lesson.destroy_all
 
 10.times do
 course = Course.create(title: Faker::OnePiece.character ,description: Faker::Zelda.game)
-lesson = Lesson.create(title: Faker::Book.title ,body: Faker::Cannabis.category)
+lesson = Lesson.create(title: Faker::Book.title ,body: Faker::Cannabis.category, course_id: rand(5))
 end
