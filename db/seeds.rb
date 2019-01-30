@@ -8,6 +8,9 @@
 
 require 'faker'
 
+Course.destroy_all
+Lesson.destroy_all
+
 10.times do
 course = Course.create(title: Faker::OnePiece.character ,description: Faker::Zelda.game)
 lesson = Lesson.create(title: Faker::Book.title ,body: Faker::Cannabis.category)
