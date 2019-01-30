@@ -1,24 +1,14 @@
-# README
+# Moocademy
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Description du Projet
 
-Things you may want to cover:
+Une application rails qui crée une une plateforme d'apprentissage en ligne en liant deux tableaux; Course && Lessons
 
-* Ruby version
+# Digramme
 
-* System dependencies
+![alt text](https://github.com/NicolasFenery/MOOCademy/blob/master/MOOCademy%20ERD.jpeg)
 
-* Configuration
 
-* Database creation
+# Réalisé par
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Nicolas && Manon Fenery
